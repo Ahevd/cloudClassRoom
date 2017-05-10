@@ -1,0 +1,280 @@
+body{
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+}
+#header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #2F3440;
+    text-align: center;
+    z-index: 9999;
+}
+#header #nav{
+    display: inline-block;
+    min-width: 1200px;
+    width: 1205px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #2F3440;
+}
+#header #nav #nav_left{
+    display: block;
+    float: left;
+}
+#header #nav #nav_left a{
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    padding: 10px 0 15px 0;
+}
+#header #nav #nav_center{
+    display: block;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    list-style: none;
+    margin-left: 20px;
+}
+#header #nav #nav_center li{
+    display: block;
+    float: left;
+    padding: 0 15px 0 15px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+#header #nav #nav_center li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+#header #nav #search_text{
+    display: block;
+    width: 300px;
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 20px;
+}
+#header #nav #search_text input{
+    width: 100%;
+    height:35px;
+}
+#header #nav #nav_right{
+    display: block;
+    float: right;
+    list-style: none;
+}
+#header #nav #nav_right li{
+    display: inline-block;
+    float: left;
+    padding: 0 10px 0 10px;
+    height: 60px;
+    line-height: 60px;
+}
+#header #nav #nav_right li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+#header #nav #nav_right li a img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+
+}
+/*中间课程展示面板*/
+#content {
+    display: block;
+    width: 100%;
+    min-width: 1205px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#content .con_center{
+    display: inline-block;
+    width: 1203px;
+    background-color: #ffffff;
+    margin-top: 20px;
+   /* background-color: #F4F4F4;*/
+
+}
+#content .con_center .center_title{
+	display: block;
+	width: 100%;
+
+}
+#content .con_center .center_title .tt{
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+#content .con_center .center_title .tt .mycar{
+	font-size: 16px;
+	color: #333;
+}
+#content .con_center .center_title .tt .numbers{
+	font-size: 12px;
+	color: #999999;
+}
+#content .con_center .center_title .menu{
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #F4F4F4;
+	text-align: left;
+	border: 1px solid gainsboro;
+	padding: 0 10px 0 10px;
+	margin-top: 20px;
+}
+#content .con_center .center_title .menu .allClick{
+	display: inline-block;
+	width: 180px;
+}
+#content .con_center .center_title .menu .className{
+	display: inline-block;
+	width: 450px;
+}
+#content .con_center .center_title .menu .time{
+	display: inline-block;
+	width: 280px;
+}
+#content .con_center .center_title .menu .price{
+	display: inline-block;
+	width: 180px;
+}
+
+/*下面商品布局尺寸*/
+#content .con_center .center_cen{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+#content .con_center .center_cen .class_demo{
+	display: inline-block;
+	width: 100%;
+}
+#content .con_center .center_cen .class_demo .d_t{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+	padding: 0 10px 0 10px;
+}
+#content .con_center .center_cen .class_demo .content{
+	display: block;
+	width: 100%;
+	padding: 15px 10px 15px 10px;
+	border: 1px solid gainsboro;
+	border-bottom: 0;
+}
+#content .con_center .center_cen .class_demo .content .pic{
+	display: inline-block;
+	width: 180px;
+}
+
+#content .con_center .center_cen .class_demo .content .pic img{
+	width: 130px;
+	height: auto;
+}
+#content .con_center .center_cen .class_demo .content .className{
+	display: inline-block;
+	width: 450px;
+}
+#content .con_center .center_cen .class_demo .content .time{
+	display: inline-block;
+	width: 280px;
+}
+#content .con_center .center_cen .class_demo .content .price{
+	display: inline-block;
+	width: 180px;
+}
+#content .con_center .center_cen .class_demo .content .delete{
+	display: inline-block;
+	
+}
+#content .con_center .center_cen .class_demo .content .delete a {
+	color: #00CCFF;
+}
+#content .con_center .center_cen .class_demo .content .delete a:hover{
+	text-decoration: underline;
+}
+#content .con_center .center_cen .class_demo .bomt{
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px 0 0;
+	text-align: right;
+	background-color: #EEEEEE;
+	border: 1px solid gainsboro;
+}
+#content .con_center .center_cen .class_demo .bomt span{
+	font-size: 14px;
+	color: #555;
+}
+#content .con_center .center_cen .allMoney{
+	display: block;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	border: 1px solid gainsboro;
+	margin-top: 40px;
+}
+#content .con_center .center_cen .allMoney .allClick{
+	display: inline-block;
+	width: 180px;
+	padding: 0 0 0 10px;
+}
+#content .con_center .center_cen .allMoney .allpay{
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+}
+#content .con_center .center_cen .allMoney .allpay span{
+	font-size: 14px;
+	color: #000000;
+}
+#content .con_center .center_cen .allMoney .allpay .money{
+	color: #FF3900;
+	font-size: 16px;
+	font-weight: 600;
+}
+#content .con_center .center_cen .allMoney .topay{
+	display: block;
+	float: right;
+	width: 120px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background-color: #CCCCCC;
+}
+#content .con_center .center_cen .allMoney .topay a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+/*底部*/
+#footer{
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+    min-width: 1205px;
+    height:300px;
+    background-color: #474443;
+    margin-top: 200px;
+}

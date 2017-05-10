@@ -1,0 +1,293 @@
+body {
+	background-color: #f4f4f4;
+	width: 100%;
+	text-align: center;
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #2F3440;
+	text-align: center;
+	z-index: 9999;
+}
+
+#header #nav {
+	display: inline-block;
+	min-width: 1200px;
+	width: 1205px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background-color: #2F3440;
+}
+
+#header #nav #nav_left {
+	display: block;
+	float: left;
+}
+
+#header #nav #nav_left a {
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	padding: 10px 0 15px 0;
+}
+
+#header #nav #nav_center {
+	display: block;
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	list-style: none;
+	margin-left: 20px;
+}
+
+#header #nav #nav_center li {
+	display: block;
+	float: left;
+	padding: 0 15px 0 15px;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+}
+
+#header #nav #nav_center li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#header #nav #search_text {
+	display: block;
+	width: 300px;
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+#header #nav #search_text input {
+	width: 100%;
+	height: 35px;
+}
+
+#header #nav #nav_right {
+	display: block;
+	float: right;
+	list-style: none;
+}
+
+#header #nav #nav_right li {
+	display: inline-block;
+	float: left;
+	padding: 0 10px 0 10px;
+	height: 60px;
+	line-height: 60px;
+}
+
+#header #nav #nav_right li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+#header #nav #nav_right li a img {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+}
+
+
+/*中间课程展示面板*/
+
+#content {
+	display: block;
+	width: 100%;
+	min-width: 1205px;
+	background-color: #E5EEF0;
+	text-align: center;
+	margin-top: 60px;
+	padding-bottom: 100px;
+}
+
+#content .con_center1 {
+	display: inline-block;
+	width: 100%;
+	background: url(../img/tpic.jpg) no-repeat center;
+	background-size: cover;
+	height: 500px;
+}
+
+#content .con_center1 .mode {
+	display: inline-block;
+	width: 1205px;
+	text-align: left;
+	margin-top: 120px;
+}
+
+#content .con_center1 .mode .title {
+	display: inline-block;
+	width: 100%;
+}
+
+#content .con_center1 .mode .title span {
+	font-size: 55px;
+	color: #FFFFFF;
+	font-weight: 400;
+}
+
+#content .con_center1 .mode .content {
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#content .con_center1 .mode .content span {
+	font-size: 24px;
+	color: #FFFFFF;
+	font-weight: 500;
+}
+
+#content .con_center1 .mode .bt {
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#content .con_center1 .mode .bt a {
+	display: block;
+	text-decoration: none;
+	background-color: #00CCFF;
+	color: #FFFFFF;
+	width: 180px;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+
+/*第二屏*/
+
+#content .con_center2 {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+#content .con_center2 .mode{
+	display: inline;
+	width: 100%;
+	text-align: center;
+}
+#content .con_center2 .mode .title{
+	display: block;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+#content .con_center2 .mode .title h2{
+	font-size: 35px;
+	color: #000000;
+	height: 70px;
+	line-height: 70px;
+}
+#content .con_center2 .mode .title h3{
+	font-size: 24px;
+	color: #000000;
+}
+
+
+#content .con_center2 .mode ul{
+	display: inline-block;
+	width: 1205px;
+	list-style: none;
+}
+#content .con_center2 .mode ul li{
+	display:block;
+	float: left;;
+	width: 270px;
+	margin-right: 25px;
+	
+}
+#content .con_center2 .mode ul li .last_li{
+	margin-right: 0px;
+}
+#content .con_center2 .mode ul li img{
+	width: 270px;
+	height: auto;
+}
+#content .con_center2 .mode ul li .info{
+	display: inline-block;
+	width: 270px;
+	text-align: center;
+	background-color: #FFFFFF;
+	padding: 15px 0 10px 0;
+}
+#content .con_center2 .mode ul li .info h2{
+	font-size: 18px;
+	height: 30px;
+	line-height: 30px;
+	color: #000000;
+}
+#content .con_center2 .mode ul li .info span{
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	color: #999999;
+}
+
+/*第三屏*/
+#content .con_center3 {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+#content .con_center3 .mode{
+	display: inline;
+	width: 100%;
+	text-align: center;
+}
+#content .con_center3 .mode .title{
+	display: block;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+#content .con_center3 .mode .title h2{
+	font-size: 35px;
+	color: #000000;
+	height: 70px;
+	line-height: 70px;
+}
+#content .con_center3 .mode .title h3{
+	font-size: 24px;
+	color: #000000;
+}
+#content .con_center3 .mode .content{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+#content .con_center3 .mode .content img{
+	width: 65%;
+	height: auto;
+}
+
+/*底部*/
+
+#footer {
+	display: block;
+	width: 100%;
+	min-width: 1205px;
+	height: 300px;
+	background-color: #474443;
+}

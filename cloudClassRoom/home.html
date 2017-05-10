@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>主页</title>
+		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.6/semantic.min.css" />
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.6/semantic.min.js"></script>
+		<link href="css/main.css" type="text/css" rel="stylesheet" />
+		<link href="css/home.css" type="text/css" rel="stylesheet" />
+		<script src="js/home.js"></script>
+	</head>
+
+	<script type="text/javascript">
+		function login() {
+			//先获得表单里输入框的值
+			var account = document.getElementById("account").value;
+			var pwd = document.getElementById("password").value;
+			if("123" == account && "111" == pwd) {
+				alert("登录成功！");
+				window.location.href = "index.html";
+			} else {
+				alert("登录失败");
+			}
+		}
+	</script>
+
+	<body>
+		<div id="header">
+			<div class="nav">
+				<div class="nav_left">
+					<a href="#">
+						<img src="img/logo4.png" />
+					</a>
+				</div>
+				<div class="nav_center">
+					<div id="ipt_search">
+						<a href="#" class="bt_search">搜索</a>
+					</div>
+				</div>
+				<div class="nav_right">
+					<ul>
+						<li>
+							<a href="myClass.html">
+								<span>我的课程</span>
+							</a>
+						</li>
+						<li>
+							<a href="messge.html">
+								<span>消息</span>
+							</a>
+						</li>
+						<li>
+							<a href="buyCar.html">
+								<span>购物车</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="login">登录</span>/
+								<span class="register">注册</span>
+							</a>
+						</li>
+						<li class="last_li">
+							<img src="img/t8.jpg">
+						</li>
+						<li>
+							<a href="intro.html">
+								<span>我要开课</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="content">
+			<div class="cen_bg">
+				<div class="pic_">
+					<img src="img/bg1.jpg">
+				</div>
+			</div>
+			<div class="cen_up">
+				<div class="menus">
+					<div class="menus_top">
+						<ul>
+							<li class="first_li">
+								<a href="#">
+									<i class="align justify icon"></i><span>全部课程</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">前端开发</a>
+							</li>
+							<li>
+								<a href="#">移动开发学院</a>
+							</li>
+							<li>
+								<a href="#">商学院</a>
+							</li>
+							<li>
+								<a href="#">其他</a>
+							</li>
+						</ul>
+					</div>
+					<div class="menus_left">
+						<ul class="left_ul">
+							<li>
+								<div href="#" class="li_a">
+									<a href="#" class="c_type">编程开发</a>
+									<a href="#" class="type_one">前端开发</a>
+									<a href="#" class="type_one">后台开发</a>
+								</div>
+								<div class="fade_plane">
+									<div class="fp_title">
+										<a href="#">编程开发 精品好课</a>
+										<a href="#">数据分析师</a>
+									</div>
+									<div class="fp_center">
+										<div class="fp_part">
+											<div class="part_left">
+												<a href="#">编程语言</a>
+											</div>
+											<div class="part_right">
+												<p>
+													<a href="#">c</a>
+													<a href="#">java</a>
+													<a href="#">c#</a>
+													<a href="#">php</a>
+												</p>
+											</div>
+										</div>
+										<div class="fp_part">
+											<div class="part_left">
+												<a href="#">编程语言</a>
+											</div>
+											<div class="part_right">
+												<p>
+													<a href="#">c</a>
+													<a href="#">java</a>
+													<a href="#">c#</a>
+													<a href="#">php</a>
+												</p>
+											</div>
+										</div>
+										<div class="fp_part">
+											<div class="part_left">
+												<a href="#">编程语言</a>
+											</div>
+											<div class="part_right">
+												<p>
+													<a href="#">c</a>
+													<a href="#">java</a>
+													<a href="#">c#</a>
+													<a href="#">php</a>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div href="#" class="li_a">
+									<a href="#" class="c_type">编程开发</a>
+									<a href="#" class="type_one">前端开发</a>
+									<a href="#" class="type_one">后台开发</a>
+								</div>
+								<div class="fade_plane"></div>
+							</li>
+							<li>
+								<div href="#" class="li_a">
+									<a href="#" class="c_type">编程开发</a>
+									<a href="#" class="type_one">前端开发</a>
+									<a href="#" class="type_one">后台开发</a>
+								</div>
+								<div class="fade_plane"></div>
+							</li>
+							<li>
+								<div href="#" class="li_a">
+									<a href="#" class="c_type">编程开发</a>
+									<a href="#" class="type_one">前端开发</a>
+									<a href="#" class="type_one">后台开发</a>
+								</div>
+								<div class="fade_plane"></div>
+							</li>
+							<li>
+								<div href="#" class="li_a">
+									<a href="#" class="c_type">编程开发</a>
+									<a href="#" class="type_one">前端开发</a>
+									<a href="#" class="type_one">后台开发</a>
+								</div>
+								<div class="fade_plane"></div>
+							</li>
+							<li class="last_li">
+								<div href="#" class="li_a">
+									<a href="#" class="c_type">编程开发</a>
+									<a href="#" class="type_one">前端开发</a>
+									<a href="#" class="type_one">后台开发</a>
+								</div>
+								<div class="fade_plane"></div>
+							</li>
+						</ul>
+					</div>
+					<!--<div class="menus_right">
+						<div class="title">欢迎来到英雄联盟</div>
+						<div class="pic">
+							<img src="img/q-education.png" />
+						</div>
+						<div class="bt">
+							<a href="#">登录</a>
+						</div>
+					</div>-->
+				</div>
+			</div>
+		</div>
+		<div class="show_classes">
+			<div id="class_list">
+				<p class="title">精选好课</p>
+				<ul>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img.png">
+									</div>
+									<div class="li_name">
+										<span>8小时学会HTML网页开发</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img1.jpg">
+									</div>
+									<div class="li_name">
+										<span>网页制作及PHP网站搭建教程</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img2.png">
+									</div>
+									<div class="li_name">
+										<span>JavaScript从入门到精通</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img3.jpg">
+									</div>
+									<div class="li_name">
+										<span>HTML5网页制作0基础</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img4.png">
+									</div>
+									<div class="li_name">
+										<span>前端开发从基础到精通</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img2.png">
+									</div>
+									<div class="li_name">
+										<span>JavaScript从入门到精通</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img1.jpg">
+									</div>
+									<div class="li_name">
+										<span>网页制作和网站搭建全解</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+				</ul>
+				<p class="title">精选好课</p>
+				<ul>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img.png">
+									</div>
+									<div class="li_name">
+										<span>8小时学会HTML网页开发</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img1.jpg">
+									</div>
+									<div class="li_name">
+										<span>网页制作及PHP网站搭建教程</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img2.png">
+									</div>
+									<div class="li_name">
+										<span>JavaScript从入门到精通</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img3.jpg">
+									</div>
+									<div class="li_name">
+										<span>HTML5网页制作0基础</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img4.png">
+									</div>
+									<div class="li_name">
+										<span>前端开发从基础到精通</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img2.png">
+									</div>
+									<div class="li_name">
+										<span>JavaScript从入门到精通</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img1.jpg">
+									</div>
+									<div class="li_name">
+										<span>网页制作和网站搭建全解</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+				</ul>
+				<p class="title">精选好课</p>
+				<ul>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img.png">
+									</div>
+									<div class="li_name">
+										<span>8小时学会HTML网页开发</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img1.jpg">
+									</div>
+									<div class="li_name">
+										<span>网页制作及PHP网站搭建教程</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img2.png">
+									</div>
+									<div class="li_name">
+										<span>JavaScript从入门到精通</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img3.jpg">
+									</div>
+									<div class="li_name">
+										<span>HTML5网页制作0基础</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img4.png">
+									</div>
+									<div class="li_name">
+										<span>前端开发从基础到精通</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img2.png">
+									</div>
+									<div class="li_name">
+										<span>JavaScript从入门到精通</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img1.jpg">
+									</div>
+									<div class="li_name">
+										<span>网页制作和网站搭建全解</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+				</ul>
+				<p class="title">精选好课</p>
+				<ul>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img.png">
+									</div>
+									<div class="li_name">
+										<span>8小时学会HTML网页开发</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img1.jpg">
+									</div>
+									<div class="li_name">
+										<span>网页制作及PHP网站搭建教程</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img2.png">
+									</div>
+									<div class="li_name">
+										<span>JavaScript从入门到精通</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img3.jpg">
+									</div>
+									<div class="li_name">
+										<span>HTML5网页制作0基础</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img4.png">
+									</div>
+									<div class="li_name">
+										<span>前端开发从基础到精通</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img2.png">
+									</div>
+									<div class="li_name">
+										<span>JavaScript从入门到精通</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="_demo">
+							<a href="#">
+								<div class="_demo1">
+									<div class="li_img">
+										<img src="img/li_img1.jpg">
+									</div>
+									<div class="li_name">
+										<span>网页制作和网站搭建全解</span>
+									</div>
+									<div class="li_price">
+										<span>免费</span>
+									</div>
+									<div class="li_num">
+										<span class="study_num">1956人学习</span><span class="good_num">9.1</span>
+									</div>
+									<div class="li_teacher">
+										<span>有钱给钱</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--登录注册界面-->
+		<div class="login_box">
+			<div class="login_close"></div>
+			<div class="login_title">
+				<div class="title_tab">
+					<ul>
+						<li class="login_info">
+							<a href="#" class="index_a">登录</a>
+						</li>
+						<li class="regist_info">
+							<a href="#">注册</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--登录表单面板-->
+			<div class="login_content">
+				<div class="content_title">
+					<a href="#" class="thri_qq_ico thri_ico"></a>
+					<a href="#" class="thri_winxin_ico thri_ico"></a>
+					<a href="#" class="thri_weibo_ico thri_ico"></a>
+				</div>
+				<p class="thri_txt">第三方登录</p>
+				<p class="or_line"></p>
+				<form action="#" method="get">
+					<p class="form_title">木木账号登录</p>
+					<p>
+						<input type="text" class="ipt account" id="account" name="account" placeholder="输入账号" />
+					</p>
+					<p>
+						<input type="password" class="ipt pwd" id="password" name="password" placeholder="输入密码" />
+						<a href="retrive_pwd.html" class="forget_pwd" target="_blank">忘记密码？</a>
+					</p>
+					<div class="login_sbt">
+						<input type="submit" value="登录" class="login_bt" onclick="login()" />
+						<p class="login_bottom">
+							没有账号？
+							<a href="#">5秒钟快速注册</a>
+						</p>
+					</div>
+				</form>
+			</div>
+			<!--注册表单面板-->
+			<div class="regist_content">
+				<form action="regist.do" method="post">
+					<p>
+						<input type="text" class="ipt" name="username" placeholder="输入账号" />
+					</p>
+					<p>
+						<input type="password" class="ipt" name="password" placeholder="输入密码" />
+					</p>
+					<p>
+						<input type="password" class="ipt" name="password2" placeholder="确认密码" />
+					</p>
+					<p class="check_box_">
+						<input type="checkbox" checked="checked" name="agree" />
+						<label for="agree"> 同意 <a href="#" target="_blank">《木木注册协议及版权声明》</a>
+						</label>
+					</p>
+					<div class="login_sbt">
+						<input type="submit" value="注册" class="reg_bt" />
+						<p class="login_bottom">
+							已有木木账号？
+							<a href="#">马上登录</a>
+						</p>
+					</div>
+				</form>
+				<p class="or_line"></p>
+				<div class="content_title">
+					<a href="#" class="thri_qq_ico thri_ico"></a>
+					<a href="#" class="thri_winxin_ico thri_ico"></a>
+					<a href="#" class="thri_weibo_ico thri_ico"></a>
+				</div>
+				<p class="thri_txt">第三方登录</p>
+			</div>
+		</div>
+		<!--遮罩层-->
+		<div class="login_shadow"></div>
+		<div id="footer"></div>
+	</body>
+
+</html>

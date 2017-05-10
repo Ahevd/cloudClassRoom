@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>木木云直播-主页</title>
+		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.6/semantic.min.css" />
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.6/semantic.min.js"></script>
+		<link href="css/main.css" type="text/css" rel="stylesheet">
+		<link href="css/writeMyInfo.css" type="text/css" rel="stylesheet">
+		<script src="js/index.js"></script>
+	</head>
+
+	<body>
+		<div id="header">
+			<div id="nav">
+				<div id="nav_left">
+					<a href="home.html">
+						<img src="img/logo3.png">
+					</a>
+				</div>
+				<ul id="nav_center">
+					<li>
+						<a href="home.html">首页</a>
+					</li>
+					<li>
+						<a href="index.html">找课程</a>
+					</li>
+					<li>
+						<a href="#">微专业</a>
+					</li>
+					<li>
+						<a href="#">下载APP</a>
+					</li>
+				</ul>
+
+				<ul id="nav_right">
+					<li>
+						<a href="myClass.html">我的课程</a>
+					</li>
+					<li>
+						<a href="messge.html">消息</a>
+					</li>
+					<li>
+						<a href="buyCar.html">购物车</a>
+					</li>
+					<li>
+						<a href="#">登录/注册</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/t8.jpg">
+						</a>
+					</li>
+				</ul>
+				<div id="search_text">
+					<label>
+						<input type="text" name="search_class">
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="content">
+			<div class="con_center">
+				<div class="center_title">
+					<ul>
+						<li class="index_li">
+							<a href="#">我的资料</a>
+						</li>
+					</ul>
+				</div>
+				<div class="center_cen">
+					<div class="d_demo">
+						<div class="cen_type">
+							<span>姓名：</span>
+						</div>
+						<div class="cen_value">
+							<input type="text" name="name" placeholder="一纸风华" class="ipt_name" />
+						</div>
+					</div>
+					<div class="d_demo">
+						<div class="cen_type">
+							<span class="cen_type">常用邮箱：</span>
+						</div>
+
+						<div class="cen_value">
+							<div class="value_t">
+								<span class="cen_content">944943563@qq.com</span>
+								<input type="text" name="name" placeholder="944943563@qq.com" class="ipt_email">
+								<a href="#" class="bt_sendEmail">发送验证邮件</a>
+								<a href="#" class="changeEmail">修改邮箱</a>
+							</div>
+							<p class="meg">用于接收来自平台和课程的邮件通知，非常重要</p>
+						</div>
+					</div>
+					<div class="d_demo">
+						<div class="cen_type">
+							<span class="cen_type">头像：</span>
+						</div>
+						<div class="cen_value">
+							<img src="img/t8.jpg">
+							<div class="value_r">
+								<p class="meg">支持jpg、gif、png或bmp格式的图片，建议文件小于20M</p>
+								<a href="#" class="changeHead">修改头像</a>
+								<input type="file" name="head" class="head">
+							</div>
+						</div>
+
+					</div>
+					<div class="d_demo">
+						<div class="cen_type">
+							<span class="cen_type">性别：</span>
+						</div>
+
+						<div class="cen_value">
+							<label>
+								<input type="radio" value="男" name="sex" class="man">&nbsp;&nbsp;<span class="cen_content">男</span>
+							</label>
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<label>
+								<input type="radio" value="女" name="sex" class="woman">&nbsp;&nbsp;<span class="cen_content">女</span>
+							</label>
+						</div>
+
+					</div>
+					<div class="d_demo">
+						<div class="cen_type">
+							<span class="cen_type">个人介绍：</span>
+						</div>
+
+						<div class="cen_value">
+							<div class="myIntroduction"></div>
+							<p class="meg">用一段话介绍你自己，会在你的个人页面显示，最多输入80字</p>
+						</div>
+
+					</div>
+					<div class="d_demo">
+						<div class="cen_type">
+							<span class="cen_type">真实姓名：</span>
+						</div>
+
+						<div class="cen_value">
+							<input type="text" name="realName" class="realName" placeholder="张扬扬">
+							<p class="meg">用于高等教育课程证书登记与发放，不会以任何形式向第三方透露</p>
+						</div>
+
+					</div>
+					<div class="d_demo">
+						<div class="cen_type">
+							<span class="cen_type">手机号码：</span>
+						</div>
+						<div class="cen_value">
+							<div class="value_t">
+								<span class="cen_content">18752001905</span>
+								<a href="#" class="changeMobile">修改手机号码</a>
+							</div>
+							<p class="meg">用于优质课程的学习提醒等服务，手机号不会对外公开，请放心</p>
+						</div>
+
+					</div>
+					<div class="d_demo">
+						<div class="cen_type">
+							<span class="cen_type">QQ号码：</span>
+						</div>
+						<div class="cen_value">
+							<input type="text" name="qq" class="qq" placeholder="944943563">
+							<p class="meg">用于课程的高效交流、方便机构及老师答疑解惑</p>
+						</div>
+
+					</div>
+					<div class="d_demo">
+						<div class="cen_type">
+							<span class="cen_type">所在地：</span>
+						</div>
+						<div class="cen_value">
+							<select class="se">
+								<option>江苏省</option>
+								<option>安徽省</option>
+								<option>山东省</option>
+							</select>
+							<select class="si">
+								<option>徐州市</option>
+								<option>南京市</option>
+								<option>苏州市</option>
+							</select>
+						</div>
+					</div>
+					<div class="d_demo">
+						<div class="cen_type">
+							<span class="cen_type">教育经历：</span>
+						</div>
+						<div class="cen_value">
+							<input type="text" name="edu" class="edu" placeholder=""><a href="#" class="add">添加</a>
+						</div>
+
+					</div>
+					<div class="d_demo">
+						<div class="cen_type">
+							<span class="cen_type">职业经历：</span>
+						</div>
+						<div class="cen_value">
+							<input type="text" name="factory" class="factory" placeholder=""><a href="#" class="add">添加</a>
+							<p class="meg">你最多可以填写5个</p>
+						</div>
+
+					</div>
+					<div class="d_demo">
+						<div class="cen_type">
+							<span class="cen_type">擅长技能：</span>
+						</div>
+						<div class="cen_value">
+							<input type="text" name="stu" class="stu" placeholder=""><a href="#" class="add">添加</a>
+							<p class="meg">例如：iOS开发、广告传媒、信息技术</p>
+						</div>
+
+					</div>
+					<div class="d_demo">
+						<div class="cen_type">
+							<span class="cen_type"></span>
+						</div>
+						<div class="cen_value">
+							<a href="#" class="save">保存</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+	</body>
+
+</html>

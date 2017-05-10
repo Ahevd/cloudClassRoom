@@ -1,0 +1,375 @@
+body{
+    background-color: #f4f4f4;
+    width: 100%;
+    text-align: center;
+}
+#header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #2F3440;
+    text-align: center;
+    z-index: 9999;
+}
+#header #nav{
+    display: inline-block;
+    min-width: 1200px;
+    width: 1205px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #2F3440;
+}
+#header #nav #nav_left{
+    display: block;
+    float: left;
+}
+#header #nav #nav_left a{
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    padding: 10px 0 15px 0;
+}
+#header #nav #nav_center{
+    display: block;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    list-style: none;
+    margin-left: 20px;
+}
+#header #nav #nav_center li{
+    display: block;
+    float: left;
+    padding: 0 15px 0 15px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+#header #nav #nav_center li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+#header #nav #search_text{
+    display: block;
+    width: 300px;
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 20px;
+}
+#header #nav #search_text input{
+    width: 100%;
+    height:35px;
+}
+#header #nav #nav_right{
+    display: block;
+    float: right;
+    list-style: none;
+}
+#header #nav #nav_right li{
+    display: inline-block;
+    float: left;
+    padding: 0 10px 0 10px;
+    height: 60px;
+    line-height: 60px;
+}
+#header #nav #nav_right li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+#header #nav #nav_right li a img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+
+}
+/*中间课程展示面板*/
+#content {
+    display: block;
+    width: 100%;
+    min-width: 1205px;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#content .con_center{
+    display: inline-block;
+    width: 1205px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+
+}
+#content .con_center .center_title{
+    display: block;
+    width: 100%;
+    height:40px;
+    line-height: 40px;
+    text-align: left;
+}
+#content .con_center .center_title ul{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	list-style: none;
+	border-bottom: 1px solid gainsboro;
+}
+#content .con_center .center_title ul li{
+	display: block;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 30px 0 30px ;
+}
+#content .con_center .center_title ul li a {
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+}
+#content .con_center .center_title ul li a:hover{
+	color: #00CCFF;
+}
+#content .con_center .center_title ul .index_li {
+	background-color: #00CCFF;
+}
+#content .con_center .center_title ul .index_li a{
+	color: #FFFFFF;
+}
+#content .con_center .center_title ul .index_li a:hover{
+	color: #FFFFFF;
+}
+
+
+#content .con_center .center_cen{
+    display: block;
+    width: 100%;
+    padding: 50px 20px 0 20px ;
+}
+#content .con_center .center_cen .d_demo{
+	display: block;
+	width: 100%;
+	margin-bottom: 30px;
+}
+#content .con_center .center_cen .d_demo .cen_type{
+	float: left;
+	width: 100px;
+    margin-right: 10px;
+    text-align: right;
+}
+#content .con_center .center_cen .d_demo .cen_type span{
+	color: #555;
+	font-size: 14px;
+    font-weight: 500;
+}
+#content .con_center .center_cen .d_demo .cen_value{
+	display: inline-block;
+	width: 1000px;
+	text-align: left;
+}
+/*提示信息*/
+#content .con_center .center_cen .d_demo .cen_value .meg{
+	font-size: 12px;
+	color: #aaa;
+	margin-top: 10px;
+}
+/*每个表单元素样式*/
+/*姓名*/
+#content .con_center .center_cen .d_demo .cen_value .ipt_name{
+	width: 200px;
+	height: 35px;
+	border: 1px solid gainsboro;
+	color: #000000;
+}
+/*提示文字*/
+.ipt_name::-webkit-input-placeholder{
+	color: #000000;
+	font-family: "微软雅黑";
+}
+#content .con_center .center_cen .d_demo .cen_value .cen_content{
+	font-size: 14px;
+	color: #000000;
+}
+/*邮箱*/
+#content .con_center .center_cen .d_demo .cen_value .ipt_email{
+	display: none;
+	width: 200px;
+	height: 35px;
+	border: 1px solid gainsboro;
+	color: #000000;
+}
+.ipt_email::-webkit-input-placeholder{
+	color: #000000;
+	font-family: "微软雅黑";
+}
+#content .con_center .center_cen .d_demo .cen_value .bt_sendEmail{
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 5px 10px 5px 10px;
+	background-color: #00CCFF;
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: 5px;
+	margin-right: 5px;
+	box-shadow: 1px 1px 1px 1px gainsboro;
+	border-radius: 2px;
+}
+#content .con_center .center_cen .d_demo .cen_value .changeEmail{
+	font-size: 12px;
+	color: #00CCFF;
+	text-decoration: none;
+}
+/*头像*/
+#content .con_center .center_cen .d_demo .cen_value img{
+	float: left;
+	width: 130px;
+	height: auto;
+}
+#content .con_center .center_cen .d_demo .cen_value .value_r{
+	display: inline-block;
+	margin-left: 10px;
+}
+#content .con_center .center_cen .d_demo .cen_value .value_r .meg{
+	margin-top: 0;
+}
+#content .con_center .center_cen .d_demo .cen_value .changeHead{
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 5px 10px 5px 10px;
+	background-color: #00CCFF;
+	font-size: 14px;
+	font-weight: 600;
+	box-shadow: 1px 1px 1px 1px gainsboro;
+	margin-top: 10px;
+}
+
+#content .con_center .center_cen .d_demo .cen_value .head{
+	display: none;
+}
+/*个人介绍*/
+#content .con_center .center_cen .d_demo .cen_value .myIntroduction{
+	display: block;
+	width: 400px;
+	height: 100px;
+	border: 1px solid gainsboro;
+	box-shadow: 1px 1px 1px 1px gainsboro;
+}
+/*真实姓名*/
+#content .con_center .center_cen .d_demo .cen_value .realName{
+	width: 200px;
+	height: 35px;
+	border: 1px solid gainsboro;
+	color: #000000;
+}
+.realName::-webkit-input-placeholder{
+	color: #000000;
+	font-family: "微软雅黑";
+}
+#content .con_center .center_cen .d_demo .cen_value .changeMobile{
+	font-size: 12px;
+	color: #00CCFF;
+	text-decoration: none;
+}
+/*QQ号码*/
+#content .con_center .center_cen .d_demo .cen_value .qq{
+	width: 200px;
+	height: 35px;
+	border: 1px solid gainsboro;
+	color: #000000;
+}
+.qq::-webkit-input-placeholder{
+	color: #000000;
+	font-family: "微软雅黑";
+}
+/*所在地*/
+#content .con_center .center_cen .d_demo .cen_value select{
+	height: 25px;
+	border: 1px solid gainsboro;
+	color: #000000;
+}
+#content .con_center .center_cen .d_demo .cen_value select option{
+	font-family: "微软雅黑";
+}
+#content .con_center .center_cen .d_demo .cen_value .se{
+	width: 150px;
+}
+#content .con_center .center_cen .d_demo .cen_value .si{
+	width: 100px;
+}
+#content .con_center .center_cen .d_demo .cen_value .edu{
+	width: 200px;
+	height: 30px;
+	border: 1px solid gainsboro;
+	color: #000000;
+}
+.edu::-webkit-input-placeholder{
+	color: #000000;
+	font-family: "微软雅黑";
+}
+#content .con_center .center_cen .d_demo .cen_value .factory{
+	width: 200px;
+	height: 30px;
+	border: 1px solid gainsboro;
+	color: #000000;
+}
+.factory::-webkit-input-placeholder{
+	color: #000000;
+	font-family: "微软雅黑";
+}
+#content .con_center .center_cen .d_demo .cen_value .stu{
+	width: 200px;
+	height: 30px;
+	border: 1px solid gainsboro;
+	color: #000000;
+}
+.stu::-webkit-input-placeholder{
+	color: #000000;
+	font-family: "微软雅黑";
+}
+#content .con_center .center_cen .d_demo .cen_value .add{
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 5px 10px 5px 10px;
+	background-color: #00CCFF;
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: 5px;
+	margin-right: 5px;
+	box-shadow: 1px 1px 1px 1px gainsboro;
+	border-radius: 2px;
+}
+
+#content .con_center .center_cen .d_demo .cen_value .save{
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 10px 25px 10px 25px;
+	background-color: #00CCFF;
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: 5px;
+	margin-right: 5px;
+	box-shadow: 1px 1px 1px 1px gainsboro;
+	border-radius: 2px;
+}
+/*底部*/
+#footer{
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+    min-width: 1205px;
+    height:300px;
+    background-color: #474443;
+    margin-top: 200px;
+}

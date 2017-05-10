@@ -1,0 +1,339 @@
+body{
+    background-color: #f4f4f4;
+    width: 100%;
+    text-align: center;
+}
+#header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #2F3440;
+    text-align: center;
+    z-index: 9999;
+}
+#header #nav{
+    display: inline-block;
+    min-width: 1200px;
+    width: 1200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #2F3440;
+}
+#header #nav #nav_left{
+    display: block;
+    float: left;
+}
+#header #nav #nav_left a{
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    padding: 10px 0 15px 0;
+}
+#header #nav #nav_center{
+    display: block;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    list-style: none;
+    margin-left: 20px;
+}
+#header #nav #nav_center li{
+    display: block;
+    float: left;
+    padding: 0 15px 0 15px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+#header #nav #nav_center li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+#header #nav #search_text{
+    display: block;
+    width: 300px;
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 20px;
+}
+#header #nav #search_text input{
+    width: 100%;
+    height:35px;
+}
+#header #nav #nav_right{
+    display: block;
+    float: right;
+    list-style: none;
+}
+#header #nav #nav_right li{
+    display: inline-block;
+    float: left;
+    padding: 0 10px 0 10px;
+    height: 60px;
+    line-height: 60px;
+}
+#header #nav #nav_right li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+#header #nav #nav_right li a img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+
+}
+/*中间课程展示面板*/
+#content {
+    display: block;
+    width: 100%;
+    min-width: 1205px;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 60px;
+}
+#content #top_menu{
+    display: inline-block;
+    width: 100%;
+    min-width: 1205px;
+    height:150px;
+    background-color: #ffffff;
+}
+#content #top_menu #main_menu{
+    display: inline-block;
+    width: 1205px;
+    text-align: left;
+    height:40px;
+    line-height: 50px;
+}
+#content #top_menu #main_menu a{
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+#content #top_menu #sub_menu{
+     display: inline-block;
+     width: 1205px;
+     height:50px;
+    text-align: left;
+     line-height: 50px;
+     list-style: none;
+ }
+#content #top_menu #sub_menu li{
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+#content #top_menu #sub_menu li a{
+    font-size: 14px;
+    color: #666;
+    font-weight: 600;
+    text-decoration: none;
+}
+#content #top_menu #sub_menu li a:hover{
+    color: #00ccff;
+}
+#content #top_menu #sub_menu  .index_li a {
+    color: #00ccff;
+    text-decoration: none;
+}
+
+#content #top_menu #sub_list{
+    display: inline-block;
+    width: 1200px;
+    height:50px;
+    text-align: left;
+    line-height: 50px;
+    list-style: none;
+}
+#content #top_menu #sub_list li{
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+#content #top_menu #sub_list li a{
+    font-size: 13px;
+    color: #666;
+    text-decoration: none;
+}
+#content #top_menu #sub_list li a:hover{
+    color: #00ccff;
+}
+#content #top_menu #sub_list  .sl_index_li a {
+    color: #00ccff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+/*中间动态栏部分*/
+#content #center_menu{
+    display: inline-block;
+    width: 1205px;
+    height:50px;
+    background-color: #ffffff;
+    margin-top: 40px;
+}
+#content #center_menu ul{
+    display: block;
+    float: left;
+    height: 50px;
+    list-style: none;
+    line-height: 50px;
+    padding-left: 30px;
+}
+#content #center_menu ul li{
+    display: block;
+    float: left;
+    margin-right: 30px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+#content #center_menu ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #555;
+}
+#content #center_menu ul .cm_index_li a{
+    color: #00ccff;
+}
+#content #center_menu .menu_right{
+    display: block;
+    float: right;
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+}
+#content #center_menu .menu_right a {
+    text-decoration: none;
+    color: #555;
+    margin-left: 20px;
+    font-size: 14px;
+}
+#content #center_menu .menu_right .last_a{
+    margin-right: 15px;
+}
+#content #class_list {
+    display: inline-block;
+    width: 1205px;
+    height:50px;
+    margin-top: 40px;
+}
+#content #class_list ul{
+    display: inline-block;
+    width: 100%;
+}
+#content #class_list ul li {
+    display: block;
+    float: left;
+    width: 223px;
+    height:270px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+#content #class_list ul li:nth-child(5n+0){
+    margin-right: 0;
+}
+#content #class_list ul li:hover{
+    border-color: gainsboro;
+}
+#content #class_list ul li ._demo{
+    display: block;
+    padding: 1px;
+}
+#content #class_list ul li ._demo a {
+    display: block;
+    text-decoration: none;
+}
+#content #class_list ul li ._demo a ._demo1{
+    display: block;
+}
+
+#content #class_list ul li ._demo a ._demo1 .li_img{
+    display: block;
+    width: 100%;
+    height:124px;
+}
+#content #class_list ul li ._demo a ._demo1 .li_img img{
+    display: block;
+    width: 220px;
+    height:124px;
+    transition: all, 1s, ease;
+}
+#content #class_list ul li ._demo a ._demo1 .li_price{
+    display: block;
+    width: 100%;
+    padding: 0 10px 0 10px ;
+    text-align: left;
+}
+#content #class_list ul li ._demo a ._demo1 .li_price span{
+    font-size: 18px;
+    color: mediumspringgreen;
+}
+#content #class_list ul li ._demo a ._demo1 .li_name {
+    display: block;
+    text-align: left;
+    padding: 0 10px 0 10px;
+    margin-top: 10px;
+    height: 50px;
+}
+#content #class_list ul li ._demo a ._demo1 .li_name span{
+    font-size: 15px;
+    color: black;
+}
+#content #class_list ul li ._demo a ._demo1 .li_num{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px 0 10px;
+}
+#content #class_list ul li ._demo a ._demo1 .li_num .study_num{
+    display: block;
+    float: left;
+    font-size: 12px;
+    color: #555;
+    
+}
+#content #class_list ul li ._demo a ._demo1 .li_num .good_num{
+    display: block;
+    float: right;
+    font-size: 18px;
+    color: #e09015;
+    font-weight: 500;
+}
+#content #class_list ul li ._demo a ._demo1 .li_teacher{
+    display: block;
+    padding: 0 10px 0 10px;
+    text-align: left;
+}
+#content #class_list ul li ._demo a ._demo1 .li_teacher span{
+    font-size: 13px;
+    color: #555;
+}
+#page{
+    display: inline-block;
+    width: 1205px;
+    height:auto;
+    text-align: right;
+}
+/*底部*/
+#footer{
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+    min-width: 1205px;
+    height:300px;
+    background-color: #474443;
+}
