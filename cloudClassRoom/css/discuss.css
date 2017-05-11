@@ -1,0 +1,435 @@
+body{
+    background-color: #f4f4f4;
+    width: 100%;
+    text-align: center;
+}
+#header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #2F3440;
+    text-align: center;
+    z-index: 9999;
+}
+#header #nav{
+    display: inline-block;
+    min-width: 1200px;
+    width: 1200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #2F3440;
+}
+#header #nav #nav_left{
+    display: block;
+    float: left;
+}
+#header #nav #nav_left a{
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    padding: 10px 0 15px 0;
+}
+#header #nav #nav_center{
+    display: block;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    list-style: none;
+    margin-left: 20px;
+}
+
+#header #nav #nav_center li{
+    display: block;
+    float: left;
+    padding: 0 15px 0 15px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+#header #nav #nav_center li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+#header #nav #search_text{
+    display: block;
+    width: 300px;
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 20px;
+}
+#header #nav #search_text input{
+    width: 100%;
+    height:35px;
+}
+#header #nav #nav_right{
+    display: block;
+    float: right;
+    list-style: none;
+}
+#header #nav #nav_right li{
+    display: inline-block;
+    float: left;
+    padding: 0 10px 0 10px;
+    height: 60px;
+    line-height: 60px;
+}
+#header #nav #nav_right li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+#header #nav #nav_right li a img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+
+}
+/*中间课程展示面板*/
+#content {
+    display: block;
+    width: 100%;
+    min-width: 1205px;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 60px;
+}
+#content #top_menu{
+    display: inline-block;
+    width: 100%;
+    min-width: 1205px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px #bbb;
+    padding: 0 0 20px 0;
+}
+#content #top_menu #main_menu{
+    display: inline-block;
+    width: 1205px;
+    text-align: left;
+    height:40px;
+    line-height: 50px;
+}
+#content #top_menu #main_menu p{
+	display: inline-block;
+    width: 1205px;
+    text-align: left;
+    height:40px;
+    line-height: 50px;
+}
+#content #top_menu #main_menu a{
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+#content #top_menu .class_info{
+    display: inline-block;
+    width: 1205px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid gainsboro;
+}
+#content #top_menu .class_info .info_left{
+    float: left;
+    width: 40%;
+}
+#content #top_menu .class_info .info_left a {
+    display: block;
+    text-decoration: none;
+}
+#content #top_menu .class_info .info_left a img{
+    display: block;
+    width: 100%;
+    height:auto;
+}
+#content #top_menu .class_info .info_right{
+    float: right;
+    width: 60%;
+    text-align: left;
+    padding: 10px 0 0 30px;
+}
+#content #top_menu .class_info .info_right .class_name{
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+#content #top_menu .class_info .info_right .class_name span{
+    font-size: 25px;
+    color:#555;
+    font-weight: 500;
+}
+#content #top_menu .class_info .info_right .class_num {
+    display: block;
+    width: 100%;
+    height:30px;
+}
+#content #top_menu .class_info .info_right .class_num span{
+    font-size: 13px;
+    color:#555;
+}
+#content #top_menu .class_info .info_right .class_num .study_num{
+    margin-right: 50px;
+}
+#content #top_menu .class_info .info_right .class_num i{
+    font-size: 16px;
+    color:#10AE58 ;
+}
+#content #top_menu .class_info .info_right .class_price{
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+}
+#content #top_menu .class_info .info_right .class_price span{
+    font-size: 25px;
+    color: #ff3c00;
+    font-weight: 500;
+}
+#content #top_menu .class_info .info_right .join{
+    display: block;
+    margin-top: 40px;
+    width: 100%;
+}
+#content #top_menu .class_info .info_right .join a{
+    display: block;
+    width: 150px;
+    height:45px;
+    background-color: #ff8000;
+    color: #ffffff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 15px;
+    text-decoration: none;
+}
+#content #top_menu .class_info .info_right .join a:hover{
+    background-color: #ff3c00;
+}
+#content #c_description{
+    display: inline-block;
+    width: 1205px;
+    min-width: 1205px;
+    margin-top: 30px;
+}
+#content #c_description .cd_left{
+    display: inline-block;
+    float: left;
+    width: 76%;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px #bbb;
+}
+#content #c_description .cd_left ul{
+    display: inline-block;
+    width: 100%;
+    list-style: none;
+    border-bottom: 1px solid gainsboro
+}
+#content #c_description .cd_left ul li {
+    display: block;
+    float: left;
+    height:60px;
+    text-align: center;
+    line-height: 60px;
+    border-top: 4px solid #ffffff;
+}
+
+#content #c_description .cd_left ul .index_li{
+    border-top-color: #10AE58;
+
+}
+#content #c_description .cd_left .title_menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #555;
+    padding: 0 40px 0 40px ;
+}
+#content #c_description .cd_left  .title_menu li a:hover{
+    color: #10AE58;
+}
+#content #c_description .cd_left .title_menu .index_li a {
+    color: #10AE58;
+}
+
+
+
+/*讨论区面板样式*/
+#content #c_description .cd_left .left_center2{
+    display: block;
+    width: 100%;	
+}
+#content #c_description .cd_left .left_center2 .center2_title{
+    display: block;
+    width: 100%;
+    padding: 0 20px 20px 20px;
+    text-align: left;
+    border-bottom: 1px solid gainsboro;
+}
+#content #c_description .cd_left .left_center2 .center2_title h3{
+	line-height: 40px;
+	font-size: 20px;
+	color: #333;
+}
+#content #c_description .cd_left .left_center2 .center2_title p{
+    font-size: 14px;
+    color: #555;
+    line-height: 1.8;
+}
+#content #c_description .cd_left .left_center2 .center2_center{
+    display: block;
+    width: 100%;
+}
+#content #c_description .cd_left .left_center2 .center2_center .discuss_demo{
+    display: block;
+    width: 100%;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid gainsboro;
+
+}
+#content #c_description .cd_left .left_center2 .center2_center .discuss_demo .dis_title{
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+}
+#content #c_description .cd_left .left_center2 .center2_center .discuss_demo .dis_title p{
+	height: 40px;
+	line-height: 40px;
+	 
+}
+#content #c_description .cd_left .left_center2 .center2_center .discuss_demo .dis_title img{
+	float: left;
+    width: 40px;
+    height:auto;
+    border-radius: 20px;
+}
+#content #c_description .cd_left .left_center2 .center2_center .discuss_demo .dis_title .per_name{
+	display: inline-block;
+    font-size: 13px;
+    color: #10AE58;
+    margin-left: 20px;
+}
+#content #c_description .cd_left .left_center2 .center2_center .discuss_demo .dis_title .time{
+	display: inline-block;
+    font-size: 13px;
+    color: #555;
+    margin-left: 20px;
+}
+#content #c_description .cd_left .left_center2 .center2_center .discuss_demo .dis_title .comt_type{
+	float: right;
+	font-size: 13px;
+    color: #555;
+}
+#content #c_description .cd_left .left_center2 .center2_center .discuss_demo .dis_content{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding: 5px 20px 5px 20px;
+}
+#content #c_description .cd_left .left_center2 .center2_center .discuss_demo .dis_content p{
+    font-size: 14px;
+    color: #333;
+    line-height: 1.8;
+}
+
+#content #c_description .cd_left .left_center2 .center2_center .discuss_demo .dis_menu{
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding:0 20px 0 0;
+}
+#content #c_description .cd_left .left_center2 .center2_center .discuss_demo .dis_menu a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+#content #c_description .cd_left .left_center2 .center2_center .discuss_demo .dis_menu a i{
+    font-size: 12px;
+    color: gray;
+}
+#content #c_description .cd_left .left_center2 .center2_center .discuss_demo .dis_menu a span{
+    font-size: 12px;
+    color: gray;
+}
+#content #c_description .cd_right{
+    display: inline-block;
+    width: 22%;
+    float: right;
+    
+}
+#content #c_description .cd_right .write_q{
+	display: block;
+	box-shadow: 0px 1px 2px #bbb;
+	background-color: #ffffff;
+	padding: 15px 15px 10px 15px;
+	width: 100%;
+	background-color: #10AE58;
+	text-align: center;
+}
+#content #c_description .cd_right .write_q a{
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+#content #c_description .cd_right .write_q a i{
+	font-size: 22px;
+}
+#content #c_description .cd_right .consult{
+	display: block;
+	box-shadow: 0px 1px 2px #bbb;
+	background-color: #ffffff;
+	text-align: left;
+	margin-top: 20px;
+}
+
+#content #c_description .cd_right .consult .consult_content{
+	display: block;
+	padding: 15px 15px 10px 15px;
+	width: 100%;
+	text-align: center;
+}
+
+#content #c_description .cd_right .consult .consult_content a{
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+}
+#content #c_description .cd_right .consult .consult_content a .q_left{
+	display: block;
+	float: left;
+	width: 40%;
+}
+#content #c_description .cd_right .consult .consult_content a .q_left img{
+	width: 100%;
+	height: auto;
+}
+#content #c_description .cd_right .consult .consult_content a .q_right{
+	display: block;
+	float: right;
+	width: 56%;
+	text-align: left;
+}
+#content #c_description .cd_right .consult .consult_content a .q_right p{
+	line-height: 40px;
+	font-size: 14px;
+	color: #666;
+}
+#content #c_description .cd_right .consult .consult_content a .q_right .q_title{
+	font-size: 18px;
+	color: #333;
+}
+
+/*底部*/
+#footer{
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+    min-width: 1205px;
+    height:300px;
+    background-color: #474443;
+}

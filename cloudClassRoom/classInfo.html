@@ -9,6 +9,7 @@
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.6/semantic.min.js"></script>
 		<link href="css/main.css" type="text/css" rel="stylesheet">
 		<link href="css/classInfo.css" type="text/css" rel="stylesheet">
+		<script src="js/classInfo.js"></script>
 	</head>
 
 	<body>
@@ -83,7 +84,13 @@
 							<span>8小时学会html网页开发</span>
 						</div>
 						<div class="class_num">
-							<span class="study_num">1230 人学习</span><span>评分：</span><span class="good_num">9.1</span>
+							<span class="study_num">1230 人学习</span>
+							<span>评价：</span>
+							<i class="star icon"></i>
+							<i class="star icon"></i>
+							<i class="star icon"></i>
+							<i class="star icon"></i>
+							<i class="star half empty icon"></i>
 						</div>
 						<div class="class_price">
 							<span>免费</span>
@@ -105,7 +112,7 @@
 								<a href="#">目录</a>
 							</li>
 							<li>
-								<a href="#">评论(264)</a>
+								<a href="discuss.html">讨论(264)</a>
 							</li>
 						</ul>
 					</div>
@@ -132,15 +139,22 @@
 									<span class="c_num">第1课时</span>
 									<span class="c_name">【录播】html准备工作</span>
 									<span class="c_time">（6分钟）</span>
-									<span class="video_l glyphicon glyphicon-play"></span>
+									<span class="tv_icon alrea">
+										<i class="toggle right icon"></i>
+									</span>
+									<span href="#" class="look_status alrea">已观看</span>
 								</a>
+
 							</li>
 							<li>
 								<a href="#">
 									<span class="c_num">第2课时</span>
 									<span class="c_name">【录播】第一个html网页</span>
 									<span class="c_time">（6分钟）</span>
-									<span class="video_l glyphicon glyphicon-play"></span>
+									<span class="tv_icon alrea">
+										<i class="toggle right icon"></i>
+									</span>
+									<span href="#" class="look_status alrea">已观看</span>
 								</a>
 							</li>
 							<li>
@@ -148,7 +162,10 @@
 									<span class="c_num">第3课时</span>
 									<span class="c_name">【录播】html常用标签使用</span>
 									<span class="c_time">（6分钟）</span>
-									<span class="video_l glyphicon glyphicon-play"></span>
+									<span class="tv_icon doing">
+										<i class="toggle right icon"></i>
+									</span>
+									<span href="#" class="look_status doing">观看中</span>
 								</a>
 							</li>
 							<li>
@@ -156,7 +173,10 @@
 									<span class="c_num">第4课时</span>
 									<span class="c_name">【录播】html表单元素</span>
 									<span class="c_time">（6分钟）</span>
-									<span class="video_l glyphicon glyphicon-play"></span>
+									<span class="tv_icon">
+										<i class="toggle right icon"></i>
+									</span>
+									<span href="#" class="look_status">未观看</span>
 								</a>
 							</li>
 							<li>
@@ -164,7 +184,10 @@
 									<span class="c_num">第5课时</span>
 									<span class="c_name">【录播】html语义化</span>
 									<span class="c_time">（6分钟）</span>
-									<span class="video_l glyphicon glyphicon-play"></span>
+									<span class="tv_icon">
+										<i class="toggle right icon"></i>
+									</span>
+									<span href="#" class="look_status">未观看</span>
 								</a>
 							</li>
 							<li>
@@ -172,7 +195,10 @@
 									<span class="c_num">第6课时</span>
 									<span class="c_name">【录播】html多媒体与图像</span>
 									<span class="c_time">（6分钟）</span>
-									<span class="video_l glyphicon glyphicon-play"></span>
+									<span class="tv_icon">
+										<i class="toggle right icon"></i>
+									</span>
+									<span href="#" class="look_status">未观看</span>
 								</a>
 							</li>
 							<li>
@@ -180,7 +206,10 @@
 									<span class="c_num">第7课时</span>
 									<span class="c_name">【录播】html准备工作</span>
 									<span class="c_time">（6分钟）</span>
-									<span class="video_l glyphicon glyphicon-play"></span>
+									<span class="tv_icon">
+										<i class="toggle right icon"></i>
+									</span>
+									<span href="#" class="look_status">未观看</span>
 								</a>
 							</li>
 							<li>
@@ -188,12 +217,15 @@
 									<span class="c_num">第8课时</span>
 									<span class="c_name">【录播】html准备工作</span>
 									<span class="c_time">（6分钟）</span>
-									<span class="video_l glyphicon glyphicon-play"></span>
+									<span class="tv_icon">
+										<i class="toggle right icon"></i>
+									</span>
+									<span href="#" class="look_status">未观看</span>
 								</a>
 							</li>
 						</ul>
 					</div>
-					<div class="left_center2" style="display: none;">
+					<div class="left_center2" style="display: none">
 						<div class="center2_title">
 							<h3>讨论区</h3>
 							<p>欢迎进入课程讨论区，你可以与本课程的老师和同学在这里交流。如果你有课程相关的问题， 请发到老师答疑区；经验、思考、创意、作品、转帖请发到综合讨论区。欢迎分享，鼓励原创， 杜绝广告，请大家共同维护一个包容、积极、相互支持的交流氛围， 谢谢。了解更多请点击“讨论区使用规则”
@@ -331,22 +363,135 @@
 					</div>
 				</div>
 				<div class="cd_right">
-					<div class="right_title">
-						<img src="img/t8.jpg">
-						<div class="person_info">
-							<h5>有钱给钱</h5>
-							<p>大学教师&nbsp;&nbsp;硕士生导师</p>
+					<div class="teacher_info">
+						<div class="right_title">
+							<img src="img/t8.jpg">
+							<div class="person_info">
+								<h5>有钱给钱</h5>
+								<p>大学教师&nbsp;&nbsp;硕士生导师</p>
+							</div>
+						</div>
+						<div class="right_center">
+							<h4>个人简介</h4>
+							<p>学校成立于2015年1月，主要从事电脑相关的培训：PS,淘宝店铺装修,平面设计，网页设计，家装设计，办公自动化，影视后期，包装设计，VI设计，logo设计，设 计理论等，学校秉承“化繁为简，因材施教”的办学理念，目前已有在线学员50万+。
+							</p>
 						</div>
 					</div>
-					<div class="right_center">
-						<h4>个人简介</h4>
-						<p>学校成立于2015年1月，主要从事电脑相关的培训：PS,淘宝店铺装修,平面设计，网页设计，家装设计，办公自动化，影视后期，包装设计，VI设计，logo设计，设 计理论等，学校秉承“化繁为简，因材施教”的办学理念，目前已有在线学员50万+。
-						</p>
+					<div class="consult">
+						<div class="consult_title">咨询</div>
+						<div class="consult_content">
+							<a href="#">
+								<i class="sound icon"></i>
+								<span>服务咨询</span>
+							</a>
+							<p>QQ：944943563&nbsp;&nbsp;&nbsp;&nbsp;群：123456951</p>
+							<p>微博：944943563@qq.com</p>
+						</div>
+					</div>
+					<div class="evaluate">
+						<div class="evaluate_title">评价</div>
+						<div class="evaluate_content">
+							<div class="grade">
+								<div class="stars">
+									<p>
+										<span>给该课程打分：</span>
+										<span class="five_stars">
+											<i class="empty star icon"></i>
+											<i class="empty star icon"></i>
+											<i class="empty star icon"></i>
+											<i class="empty star icon"></i>
+											<i class="empty star icon"></i>
+										</span>
+									</p>
+								</div>
+								<div class="ipt_plane"></div>
+								<div class="save">
+									<p>
+										<span>100字以内评价</span>
+										<a href="#" class="publish">发表</a>
+										<a href="#" class="cancel">取消</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="comment">
+							<div class="comment_title">
+								<div class="tit_left">
+									<a href="#">
+										<img src="img/t8.jpg" />
+									</a>
+								</div>
+								<div class="tit_right">
+									<p>
+										<span>轻轻走123</span><span class="time">5月10日</span>
+									</p>
+									<p>
+										<i class="star icon"></i>
+										<i class="star icon"></i>
+										<i class="star icon"></i>
+										<i class="star icon"></i>
+										<i class="star icon"></i>
+									</p>
+								</div>
+							</div>
+							<div class="comment_content">
+								<p>感谢老师，老师讲的确实不错。通俗易懂 羊君 肆-捌-陆-伍-捌-叁-玖-叁-壹 領取χυе習赀料</p>
+							</div>
+						</div>
+						<div class="comment">
+							<div class="comment_title">
+								<div class="tit_left">
+									<a href="#">
+										<img src="img/t8.jpg" />
+									</a>
+								</div>
+								<div class="tit_right">
+									<p>
+										<span>轻轻走123</span><span class="time">5月10日</span>
+									</p>
+									<p>
+										<i class="star icon"></i>
+										<i class="star icon"></i>
+										<i class="star icon"></i>
+										<i class="star icon"></i>
+										<i class="star icon"></i>
+									</p>
+								</div>
+							</div>
+							<div class="comment_content">
+								<p>感谢老师，老师讲的确实不错。通俗易懂 羊君 肆-捌-陆-伍-捌-叁-玖-叁-壹 領取χυе習赀料</p>
+							</div>
+						</div>
+						<div class="comment">
+							<div class="comment_title">
+								<div class="tit_left">
+									<a href="#">
+										<img src="img/t8.jpg" />
+									</a>
+								</div>
+								<div class="tit_right">
+									<p>
+										<span>轻轻走123</span><span class="time">5月10日</span>
+									</p>
+									<p>
+										<i class="star icon"></i>
+										<i class="star icon"></i>
+										<i class="star icon"></i>
+										<i class="star icon"></i>
+										<i class="star icon"></i>
+									</p>
+								</div>
+							</div>
+							<div class="comment_content">
+								<p>感谢老师，老师讲的确实不错。通俗易懂 羊君 肆-捌-陆-伍-捌-叁-玖-叁-壹 領取χυе習赀料</p>
+							</div>
+						</div>
+						<a href="#" class="look_more">查看更多</a>
 					</div>
 				</div>
 			</div>
 		</div>
-
+		
 		<div id="footer"></div>
 	</body>
 

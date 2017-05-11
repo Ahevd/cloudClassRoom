@@ -1,0 +1,386 @@
+body{
+    background-color: #f4f4f4;
+    width: 100%;
+    text-align: center;
+}
+#header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #2F3440;
+    text-align: center;
+    z-index: 9999;
+}
+#header #nav{
+    display: inline-block;
+    min-width: 1200px;
+    width: 1200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #2F3440;
+}
+#header #nav #nav_left{
+    display: block;
+    float: left;
+}
+#header #nav #nav_left a{
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    padding: 10px 0 15px 0;
+}
+#header #nav #nav_center{
+    display: block;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    list-style: none;
+    margin-left: 20px;
+}
+#header #nav #nav_center li{
+    display: block;
+    float: left;
+    padding: 0 15px 0 15px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+#header #nav #nav_center li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+#header #nav #search_text{
+    display: block;
+    width: 300px;
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 20px;
+}
+#header #nav #search_text input{
+    width: 100%;
+    height:35px;
+}
+#header #nav #nav_right{
+    display: block;
+    float: right;
+    list-style: none;
+}
+#header #nav #nav_right li{
+    display: inline-block;
+    float: left;
+    padding: 0 10px 0 10px;
+    height: 60px;
+    line-height: 60px;
+}
+#header #nav #nav_right li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+#header #nav #nav_right li a img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+
+}
+/*中间课程展示面板*/
+#content {
+    display: block;
+    width: 100%;
+    min-width: 1205px;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 60px;
+    background-color: #ffffff;
+}
+#content #top_menu{
+    display: inline-block;
+    width: 100%;
+    min-width: 1205px;
+    height:400px;
+    background: #49d7d1  url(../img/seriecs_bg.png) no-repeat center center;
+}
+#content #top_menu #main_menu{
+    display: inline-block;
+    width: 1205px;
+    height:80px;
+}
+#content #top_menu #main_menu p{
+	width: 100%;
+    text-align: left;
+    height:80px;
+    line-height: 80px;
+}
+#content #top_menu #main_menu a{
+    font-size: 16px;
+    color: #333333;
+    text-decoration: none;
+}
+#content #top_menu #main_menu .fade_a{
+	color: #999;
+}
+#content #top_menu .class_name{
+	display: inline-block;
+    width: 1205px;
+    height:50px;
+}
+#content #top_menu .class_name p{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	font-size: 50px;
+	color: #FFFFFF;
+}
+#content #top_menu .class_intro{
+	display: inline-block;
+    width: 1205px;
+    height:150px;
+    padding-top: 30px;
+}
+#content #top_menu .class_intro p{
+	display: block;
+	width: 550px;
+	line-height: 25px;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: left;
+}
+#content #top_menu .join_class{
+	display: inline-block;
+    width: 1205px;
+    height:80px;
+    text-align: left;
+}
+#content #top_menu .join_class .cen{
+	display: block;
+	float: left;
+	width: 550px;
+}
+#content #top_menu .join_class .cen .buy_bt{
+	display: block;
+	float: left;
+}
+#content #top_menu .join_class .cen .buy_bt a {
+	display: block;
+	width: 260px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background-color: #ff7200;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+#content #top_menu .join_class .cen .buy_time{
+	display: block;
+	float: left;
+	width: 250px;
+	text-align: left;
+	margin-left: 20px;
+}
+#content #top_menu .join_class .cen .buy_time .class_price{
+	display: block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+#content #top_menu .join_class .cen .buy_time .class_price .now_price{
+	float: left;
+	color: #ff3e00;
+	font-size: 30px;
+}
+#content #top_menu .join_class .cen .buy_time .class_price .original_price{
+	float: left;
+	color: #999999;
+	font-size: 16px;
+	text-decoration: line-through;
+	margin-left: 10px;
+}
+#content #top_menu .join_class .cen .buy_time .remain_time{
+	display: inline-block;
+	background-color: #ffffcc;
+	border: 1px solid #ff3e00;
+	text-align: center;
+	color: #ff3e00;
+	font-size: 14px;
+	margin-top: 7px;
+	padding: 0 5px 0 5px ;
+}
+
+#content  .menu_title{
+	display: block;
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid gainsboro;
+	text-align: center;
+}
+#content  .menu_title ul{
+	display: inline-block;
+	width: 1205px;
+	height: 70px;
+	line-height: 70px;
+	list-style: none;
+}
+#content  .menu_title ul li{
+	float: left;
+	margin-right: 35px;
+}
+#content  .menu_title ul li a {
+	font-size: 19px;
+	color: #666666;
+}
+#content  .menu_title ul li a:hover{
+	text-decoration: underline;
+	color: #10AE58;
+}
+
+/*中间动态栏部分*/
+#content #center_menu{
+    display: inline-block;
+    width: 1205px;
+}
+#content #center_menu .series_class_demo{
+	display: block;
+	width: 100%;
+	margin-top: 40px;
+}
+#content #center_menu .series_class_demo .demo_title{
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+#content #center_menu .series_class_demo .demo_title .demo_name{
+	height: 40px;
+	line-height: 40px;
+	font-size: 31px;
+	color: #333;
+}
+#content #center_menu .series_class_demo .demo_title .demo_info{
+	height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+	color: #666;
+}
+#content #center_menu .series_class_demo .demo_content{
+	display: block;
+	width: 100%;
+	height: 250px;
+	margin-top: 20px;
+	border: 1px solid gainsboro;
+}
+#content #center_menu .series_class_demo .demo_content .left_pic{
+	display: block;
+	float: left;
+	width: 450px;
+	height: 250px;
+}
+#content #center_menu .series_class_demo .demo_content .left_pic img{
+	width: 450px;
+	height: 250px;
+}
+#content #center_menu .series_class_demo .right_info{
+	display: inline-block;
+	position: relative;
+	width: 750px;
+	height: 250px;
+	padding: 10px 15px 15px 15px;
+}
+#content #center_menu .series_class_demo .right_info .base_info{
+	display: block;
+	width: 500px;
+	height: 250px;
+	text-align: left;
+}
+#content #center_menu .series_class_demo .right_info .base_info .class_name{
+	height: 50px;
+	line-height: 50px;
+	font-size: 26px;
+	color: #333;
+}
+#content #center_menu .series_class_demo .right_info .base_info .teacher{
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #999;
+}
+#content #center_menu .series_class_demo .right_info .base_info .class_info{
+	height: 80px;
+	font-size: 14px;
+	color: #333;
+	line-height: 25px;
+}
+#content #center_menu .series_class_demo .right_info .base_info .join_info{
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #999;
+}
+#content #center_menu .series_class_demo .right_info .base_info .join_memeber{
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	color: #999;
+}
+#content #center_menu .series_class_demo .right_info .base_info .join_memeber a {
+	float: left;
+	margin-right: 10px;
+}
+#content #center_menu .series_class_demo .right_info .base_info .join_memeber a img{
+	width: 35px;
+	height: 35px;
+	
+}
+
+#content #center_menu .series_class_demo .right_info .buy_price{
+	display: block;
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	width: 200px;
+	
+}
+#content #center_menu .series_class_demo .right_info .buy_price p{
+	margin-top: 10px;
+}
+#content #center_menu .series_class_demo .right_info .buy_price .free{
+	font-size: 26px;
+	color: #FF3E00;
+}
+#content #center_menu .series_class_demo .right_info .buy_price .now_price{
+	font-size: 24px;
+	color: #FF3E00;
+}
+#content #center_menu .series_class_demo .right_info .buy_price .original_price{
+	font-size: 16px;
+	color: #999;
+	text-decoration: line-through;
+}
+#content #center_menu .series_class_demo .right_info .buy_price .show_detail a{
+	display: block;
+	width: 190px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 24px;
+	color: #FFFFFF;
+	background-color: #ff8000;
+	text-align: center;
+}
+/*底部*/
+#footer{
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+    min-width: 1205px;
+    height:300px;
+    background-color: #474443;
+}
