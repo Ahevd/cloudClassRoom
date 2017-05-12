@@ -1,145 +1,342 @@
-body{
-    /*background-color: #f4f4f4;*/
-    width: 100%;
-    text-align: center;
-    background: url(../img/d_bg.jpg) no-repeat center;
-    background-size: cover;
+body {
+	/*background-color: #f4f4f4;*/
+	width: 100%;
+	text-align: center;
+	background-color: #FFFFFF;
+	/*background: url(../img/d_bg.jpg) no-repeat center;
+    background-size: cover;*/
 }
-#header{
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #2F3440;
-    text-align: center;
-    z-index: 9999;
-}
-#header #nav{
-    display: inline-block;
-    min-width: 1200px;
-    width: 1205px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    background-color: #2F3440;
-}
-#header #nav #nav_left{
-    display: block;
-    float: left;
-}
-#header #nav #nav_left a{
-    display: block;
-    height: 60px;
-    line-height: 60px;
-    padding: 10px 0 15px 0;
-}
-#header #nav #nav_center{
-    display: block;
-    float: left;
-    height: 60px;
-    line-height: 60px;
-    list-style: none;
-    margin-left: 20px;
-}
-#header #nav #nav_center li{
-    display: block;
-    float: left;
-    padding: 0 15px 0 15px;
-    text-align: center;
-    height: 60px;
-    line-height: 60px;
-}
-#header #nav #nav_center li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-}
-#header #nav #search_text{
-    display: block;
-    width: 300px;
-    float: right;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    margin-right: 20px;
-}
-#header #nav #search_text input{
-    width: 100%;
-    height:35px;
-}
-#header #nav #nav_right{
-    display: block;
-    float: right;
-    list-style: none;
-}
-#header #nav #nav_right li{
-    display: inline-block;
-    float: left;
-    padding: 0 10px 0 10px;
-    height: 60px;
-    line-height: 60px;
-}
-#header #nav #nav_right li a {
-    display: inline-block;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 500;
-}
-#header #nav #nav_right li a img{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
 
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #2F3440;
+	text-align: center;
+	z-index: 9999;
 }
+
+#header #nav {
+	display: inline-block;
+	min-width: 1200px;
+	width: 1205px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background-color: #2F3440;
+}
+
+#header #nav #nav_left {
+	display: block;
+	float: left;
+}
+
+#header #nav #nav_left a {
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	padding: 10px 0 15px 0;
+}
+
+#header #nav #nav_center {
+	display: block;
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	list-style: none;
+	margin-left: 20px;
+}
+
+#header #nav #nav_center li {
+	display: block;
+	float: left;
+	padding: 0 15px 0 15px;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+}
+
+#header #nav #nav_center li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#header #nav #search_text {
+	display: block;
+	width: 300px;
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+#header #nav #search_text input {
+	width: 100%;
+	height: 35px;
+}
+
+#header #nav #nav_right {
+	display: block;
+	float: right;
+	list-style: none;
+}
+
+#header #nav #nav_right li {
+	display: inline-block;
+	float: left;
+	padding: 0 10px 0 10px;
+	height: 60px;
+	line-height: 60px;
+}
+
+#header #nav #nav_right li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+#header #nav #nav_right li a img {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+}
+
+
 /*中间课程展示面板*/
+
 #content {
-    display: block;
-    width: 100%;
-    min-width: 1205px;
-    /*background-color: #f4f4f4;*/
-    text-align: center;
-    margin-top: 60px;
+	display: inline-block;
+	width: 100%;
+	min-width: 1205px;
+	/*background-color: #f4f4f4;*/
+	text-align: center;
+	margin-top: 65px;
 }
-#content #video_show{
-    display: inline-block;
-    width: 1205px;
-    text-align: center;
+
+#content #video_show {
+	display: inline-block;
+	width: 1205px;
+	text-align: center;
 }
-#content #video_show .show_title{
-    display: inline-block;
-    width: 100%;
-    height:50px;
-    background-color: gainsboro;
+
+#content #video_show .show_center {
+	display: block;
+	float: left;
+	width: 840px;
+	text-align: center;
 }
-#content #video_show .show_center{
-    display: block;
-    width: 100%;
-    text-align: center;
+
+#content #video_show .show_center .show_title {
+	display: block;
+	width: 100%;
+	height: 92px;
+	background-color: #FFFFFF;
+	border: 1px solid gainsboro;
+	margin-bottom: 5px;
+	border-radius: 2px;
 }
-#content #video_show .show_center .center_left{
-    display: block;
-    float: left;
-    width: 900px;
-    height:600px;
-    background-color: gray;
+
+#content #video_show .show_center .show_title .teacher_head {
+	display: block;
+	float: left;
 }
-#content #video_show .show_center .center_right{
-    display: inline-block;
-    width: 300px;
-    height:600px;
-    background-color: #555555;
+
+#content #video_show .show_center .show_title .teacher_head a img {
+	width: 90px;
+	height: 90px;
+}
+
+#content #video_show .show_center .show_title .room_info {
+	display: inline-block;
+	width: 745px;
+	text-align: left;
+	padding: 10px 10px 0px 10px;
+}
+
+#content #video_show .show_center .show_title .room_info .info_title {
+	display: block;
+	width: 100%;
+}
+
+#content #video_show .show_center .show_title .room_info .info_title .class_name {
+	display: block;
+	float: left;
+	width: 320px;
+	height: 30px;
+	line-height: 30px;
+}
+
+#content #video_show .show_center .show_title .room_info .info_title .class_name span {
+	font-size: 18px;
+	color: #2c3e50;
+	font-weight: 600;
+}
+
+#content #video_show .show_center .show_title .room_info .info_title .care_bt {
+	display: block;
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+}
+
+#content #video_show .show_center .show_title .room_info .info_title .care_bt a {
+	display: block;
+	float: left;
+	width: 69px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #f70;
+	color: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 18.5px 0 0 18.5px;
+	text-align: center;
+}
+
+#content #video_show .show_center .show_title .room_info .info_title .care_bt p {
+	display: inline-block;
+	float: right;
+	min-width: 70px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #879aa8;
+	border: 1px solid #e5e5e5;
+	border-left: none;
+	border-radius: 0 18.5px 18.5px 0;
+	text-align: center;
+}
+
+#content #video_show .show_center .show_title .room_info .info_bottom {
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+}
+
+#content #video_show .show_center .show_title .room_info .info_bottom p {
+	height: 25px;
+	line-height: 25px;
+}
+
+#content #video_show .show_center .show_title .room_info .info_bottom p a {
+	color: #666;
+	font-size: 12px;
+}
+
+#content #video_show .show_center .show_title .room_info .info_bottom p a:hover {
+	color: #f70;
+}
+
+#content #video_show .show_center .center_left {
+	display: inline-block;
+	width: 840px;
+	height: 520px;
+	background-color: gray;
+}
+
+#content #video_show .show_center .gift_info {
+	display: block;
+	width: 840px;
+	height: 90px;
+	background-color: gainsboro;
+}
+
+#content #video_show .center_right {
+	display: inline-block;
+	width: 350px;
+	height: 770px;
+	background-color: #FFFFFF;
+	margin-left: 10px;
+}
+
+#content #video_show .center_right .comment_title {
+	display: block;
+	/*box-shadow: 0px 1px 2px #bbb;*/
+	/*border-radius: 3px;*/
+}
+
+#content #video_show .center_right .comment_title a {
+	display: block;
+	width: 100%;
+	height: 90px;
+	border: 1px solid gainsboro;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+#content #video_show .center_right .comment_title a img {
+	width: 100%;
+	height: 90px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+#content #video_show .center_right .comment_center{
+	display: block;
+	width: 348px;
+	height: 520px;
+	border: 1px solid gainsboro;
+	margin-top: 7px;
+	text-align: left;
+	padding: 10px 10px 10px 15px ;
+	overflow-y: auto;
+}
+#content #video_show .center_right .comment_center p{
+	font-size: 14px;
+	color: #333333;
+	line-height: 20px;
+	margin: 7px 0 ::;;px 0;
+}
+#content #video_show .center_right .comment_center p .pe_name{
+	color: red;
+	margin-right: 10px;
+}
+
+#content #video_show .center_right .comment_input{
+	display: inline-block;
+	width: 100%;
+	border: 1px solid gainsboro;
+	border-top: 0;
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+}
+#content #video_show .center_right .comment_input .comment_ipt{
+	display: inline-block;
+	width: 100%;
+	height: 60px;
+	border: 1px solid #f70;
+	outline:none;
+	font-size: 14px;
+	border-radius: 3px;
+	padding: 5px 5px 5px 5px;
+}
+#content #video_show .center_right .comment_input .comment_sbt{
+	display: inline-block;
+	
+	float: right;
+	padding: 5px 10px 5px 10px ;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #f70;
+	margin-top: 10px;
+	border-radius: 3px;
 }
 /*底部*/
-#footer{
-    display: block;
-    margin-top: 50px;
-    width: 100%;
-    min-width: 1205px;
-    height:300px;
-    background-color: #474443;
-    margin-top: 100px;
+
+#footer {
+	display: block;
+	margin-top: 50px;
+	width: 100%;
+	min-width: 1205px;
+	height: 300px;
+	background-color: #474443;
+	margin-top: 100px;
 }
